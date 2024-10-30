@@ -14,17 +14,177 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Produce</title>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        src: url(https://cdn.glitch.global/25a85d87-c3dd-4101-a937-5b9b8e9e5dc7/Snoopy_Dings.ttf?v=1730302953745);
+        font-family: snoopy;
+      }
+      body {
+        background-image: radial-gradient(red, black);
+      }
+      .snoopy{font-family: snoopy;
+      color:black;
+      background-color:white;}
+      ol {
+        text-align: center;
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+      a:link {
+        color: red;
+      }
 
-  </style>
-</head>
-<body>
+      a:hover {
+        color: maroon;
+      }
 
- 
+      a:visited {
+        color: red;
+      }
 
-</body>
+      a:visited:hover {
+        color: maroon;
+      }
+
+      ol {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 5fr 1fr;
+        column-gap: 5px;
+        font-size: 25px;
+      }
+
+      .img {
+        width: 80px;
+      }
+
+      #img {
+        filter: brightness(1.3);
+        width: 79px;
+      }
+
+      h1 {
+        color: cornsilk;
+        font-variant: small-caps;
+        font-family: tahoma;
+        font-size: 80px;
+        text-align: center;
+      }
+
+      h1:hover {
+        color: red;
+      }
+
+      h2 {
+        font-family: didot;
+        color: blanchedalmond;
+        font-variant: small-caps;
+        font-size: 50px;
+      }
+
+      .accent {
+        color: cornsilk;
+        font-variant: small-caps;
+      }
+
+      table,
+      tr {
+        border: 3px solid black;
+        background-color: black;
+      }
+      td {
+        background-color: firebrick;
+        font-family: tahoma;
+        border: 6px solid firebrick;
+        font-weight: 900;
+      }
+      th {
+        border: dotted darkorange;
+        background-color: darkred;
+        font-size: 20px;
+        font-family: didot;
+        font-variant: small-caps;
+        color: red;
+      }
+
+      .competitors {
+        font-size: 20px;
+        font-family: didot;
+        font-weight: bolder;
+        background-color: crimson;
+        border: 5px solid crimson;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class = "snoopy"> v</h1> <h1>Produce in Battle</h1>
+
+    <h2>The Competitors</h2>
+
+    <ol class="accent">
+      <li><a href="https://tinyurl.com/3ctw8e72">Banana</a></li>
+      <img
+        class="img"
+        src="https://tinyurl.com/bdd4s6pp"
+        style="height: 74px"
+      />
+      <br />
+      <li><a href="https://tinyurl.com/3pmesxdp">Lettuce</a></li>
+      <img class="img" src="https://tinyurl.com/8a9huz4n" />
+      <br />
+      <li><a href="https://tinyurl.com/yckest29">Lychee</a></li>
+      <img class="img" src="https://tinyurl.com/47ae6jyp" />
+      <br />
+      <li><a href="https://tinyurl.com/vkfrf8uv">Asparagus</a></li>
+      <img class="img" src="https://tinyurl.com/5n7zxtvy" />
+      <br />
+      <li><a href="https://tinyurl.com/5sm2tazv">Watermelon</a></li>
+      <img id="img" src="https://tinyurl.com/mthw6ycb" />
+    </ol>
+
+    <h2>Attributes</h2>
+
+    <table>
+      <tr>
+        <th class="competitors"></th>
+        <th>Strengths</th>
+        <th>Weaknesses</th>
+        <th>Curveball</th>
+      </tr>
+      <tr>
+        <td class="competitors">Banana</td>
+        <td>Height advantage</td>
+        <td>Weakly armored</td>
+        <td>Can throw itself like a ninja star</td>
+      </tr>
+      <tr>
+        <td class="competitors">Lettuce</td>
+        <td>Good at camouflage</td>
+        <td>Rips easily and flimsy</td>
+        <td>Blindfolds opponents with leaves</td>
+      </tr>
+      <tr>
+        <td class="competitors">Lychee</td>
+        <td>Moves around fast</td>
+        <td>Vertically challenged</td>
+        <td>Uses pit like a bullet</td>
+      </tr>
+      <tr>
+        <td class="competitors">Asparagus</td>
+        <td>Very nimble and flexible</td>
+        <td>Skimpy and has no muscle</td>
+        <td>Scales shoot out like porcupine quills</td>
+      </tr>
+      <tr>
+        <td class="competitors">Watermelon</td>
+        <td>Super strength</td>
+        <td>Bulky and awkward to move</td>
+        <td>Rolls over and crushes opponents</td>
+      </tr>
+    </table>
+    <br />
+  </body>
 </html>
