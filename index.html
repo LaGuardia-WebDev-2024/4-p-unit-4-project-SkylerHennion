@@ -24,10 +24,17 @@ Select ONE Additional Feature to Add
       }
       body {
         background-image: radial-gradient(red, black);
+        background-attachment: fixed;
+        width: 50%;
+        margin: auto;
       }
-      .snoopy{font-family: snoopy;
-      color:black;
-      background-color:white;}
+
+      .snoopy {
+        font-family: snoopy;
+        color: black;
+        text-shadow: -2px -2px tomato, 2px -2px red, -2px 2px crimson, 2px 2px red;
+        font-size: 100px;
+      }
       ol {
         text-align: center;
       }
@@ -49,11 +56,13 @@ Select ONE Additional Feature to Add
       }
 
       ol {
+        background-color: rgba(0,0,0,.4);
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 5fr 1fr;
-        column-gap: 5px;
+        grid-template-columns: 10fr 5fr 1fr;
+        column-gap: 1px;
         font-size: 25px;
+        text-align: center;
       }
 
       .img {
@@ -82,6 +91,7 @@ Select ONE Additional Feature to Add
         color: blanchedalmond;
         font-variant: small-caps;
         font-size: 50px;
+        text-align: center;
       }
 
       .accent {
@@ -107,6 +117,7 @@ Select ONE Additional Feature to Add
         font-family: didot;
         font-variant: small-caps;
         color: red;
+
       }
 
       .competitors {
@@ -116,14 +127,15 @@ Select ONE Additional Feature to Add
         background-color: crimson;
         border: 5px solid crimson;
       }
+      
     </style>
   </head>
 
   <body>
-    <h1 class = "snoopy"> v</h1> <h1>Produce in Battle</h1>
+    <h1><strong class="snoopy">. v </strong> Produce in Battle<strong class="snoopy"> .p </strong></h1>
 
     <h2>The Competitors</h2>
-
+<center>
     <ol class="accent">
       <li><a href="https://tinyurl.com/3ctw8e72">Banana</a></li>
       <img
@@ -185,6 +197,7 @@ Select ONE Additional Feature to Add
         <td>Rolls over and crushes opponents</td>
       </tr>
     </table>
+    </center>
     <br />
   </body>
 </html>
